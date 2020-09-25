@@ -1,0 +1,25 @@
+package com.company;
+
+
+import java.lang.reflect.Method;
+import java.util.Scanner;
+
+
+public class Main {
+
+        public static void main (String args[]){
+
+            int myarr[] = {23,43,25,255,232,32};
+            int count=0;
+            for(int val:myarr){
+                System.out.println(val);
+                count =count+val;
+                System.out.println("sum of array:"+count);
+
+            }
+
+
+        }
+
+}
+
